@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 # ------------------ Load Model and Scalers ------------------ #
 with open("model3.pkl", "rb") as f:
-    model3 = pickle.load(f)
+    model = pickle.load(f)
 
 with open("robust1_scaler_flight.pkl", "rb") as f:
     scaler = pickle.load(f)
@@ -95,6 +95,7 @@ if st.button("Predict Price"):
     if source == destination:
         st.error("⚠️ Source and Destination cannot be the same.")
     else:
-        predicted_price_scaled = model3.predict(new_flight)[0]
+        predicted_price_scaled = model.predict(new_flight)[0]
         predicted_price_actual = scaler2.inverse_transform([[predicted_price_scaled]])[0][0]
         st.success(f"💰 Predicted Flight Price: ₹{predicted_price_actual:.2f}")
+
