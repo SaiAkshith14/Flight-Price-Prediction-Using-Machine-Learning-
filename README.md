@@ -41,6 +41,16 @@ This predictive system helps:
 
 ---
 
+## 📁 Project Structure
+1. `flight_price_prediction.ipynb` → Main notebook  
+2. `cleaned_flight_data.csv` → Processed dataset  
+3. `business.csv` / `economy.csv` → Input datasets  
+4. `model.zip` → Trained model  
+5. `app.py` → Deployment script  
+6. `requirements.txt` → Dependencies  
+
+---
+
 ## 🌍 Significance & Business Impact
 - Helps **airlines** set competitive yet profitable pricing strategies.  
 - Provides **travel agencies** with predictive insights to enhance customer satisfaction.  
