@@ -26,7 +26,10 @@ This predictive system helps:
 - **Libraries**: Pandas, NumPy, Scikit-learn  
 - **Scaling Technique**: RobustScaler  
 - **Model Used**: Random Forest Regressor  
-- **Evaluation Metrics**: MAE, MSE, R² Score  
+- **Evaluation Metrics**:  
+  - Mean Absolute Error (MAE): `0.0318`  
+  - Mean Squared Error (MSE): `0.0034`  
+  - R² Score: `0.9818`  
 
 ---
 
