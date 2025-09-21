@@ -53,6 +53,6 @@ This predictive system helps:
 This predictive model has been deployed as an **interactive web application using Streamlit**.  
 Users can input details such as **airline, source, destination, stops, duration, and class**, and the app will instantly predict the **flight price**.  
 
-This makes the solution practical, user-friendly, and impactful for both **businesses and customers**.
+👉 **Try it out here:** [Flight Price Predictor Web App](https://qx5hynvnar8scogr9kz84d.streamlit.app/)  
 
----
+This makes the solution practical, user-friendly, and impactful for both **businesses and customers**.
