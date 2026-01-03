@@ -1,4 +1,4 @@
-# ✈️ Flight Price Prediction using Machine Learning
+# ✈️ AirLine Analytics Using Machine Learning and Power BI
 
 ## 📌 Project Description
 This project focuses on predicting the price of flight tickets based on various features such as airline, source, destination, duration, stops, and class.  
