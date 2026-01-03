@@ -6,6 +6,8 @@ I performed data cleaning, preprocessing (including outlier handling and feature
 
 After evaluating different models, **Random Forest Regressor** delivered the best performance with excellent accuracy and minimal error.
 
+**Power BI** was implemented to create interactive dashboards and reports, enabling clear visualization of airline pricing trends, route-wise fare variations, demand patterns, and key factors influencing ticket prices. These dashboards enhance business understanding and decision-making by transforming historical data into actionable insights.
+
 ---
 
 ## 💼 Business Problem
@@ -16,8 +18,11 @@ The business problem here is:
 
 This predictive system helps:  
 - Customers plan trips with fair price expectations.  
-- Airlines and agencies optimize pricing strategies.  
-- Enhances transparency and trust in ticket pricing.  
+- optimize pricing strategies using predictive models and historical trend analysis.  
+- Gain transparency and trust through clear visual reporting and data-backed insights.
+- Power BI dashboards, built on cleaned and processed historical data, provide interactive insights into pricing trends, route-wise fare behavior, airline comparisons, and demand patterns.
+
+
 
 ---
 
@@ -29,15 +34,21 @@ This predictive system helps:
 - **Evaluation Metrics**:  
   - Mean Absolute Error (MAE): `0.0318`  
   - Mean Squared Error (MSE): `0.0034`  
-  - R² Score: `0.9818`  
+  - R² Score: `0.9818`
+- **Visualization Tool**: Power BI 
 
 ---
 
 ## 🔎 Insights
-- Flight ticket prices are highly influenced by **airline type, number of stops, and travel class**.  
-- **Duration** and **departure time slots** (Morning/Evening/Night) significantly impact ticket costs.  
-- Premium classes (Business) have considerably higher prices than Economy.  
-- Non-stop flights generally cost less compared to 1-stop or 2+ stop flights.  
+
+- Vistara operates the highest number of flights and also leads in pricing, indicating a strong market presence and premium positioning.
+- The Bangalore → Mumbai route is the most profitable, driven by heavy corporate traffic and consistently higher fares.
+- Business class contributes nearly 79% of the total revenue, even though more passengers travel in economy.
+   - This is because business class tickets are priced significantly higher, especially on high-demand corporate routes like Bangalore–Mumbai.
+   - As a result, business class generates a disproportionately large share of revenue despite lower passenger volume.
+- Evening flights show higher demand from business travelers, reflecting common corporate travel patterns where professionals prefer evening departures after work hours.
+
+
 
 ---
 
@@ -47,15 +58,16 @@ This predictive system helps:
 3. `business.csv` / `economy.csv` → Input datasets  
 4. `model.zip` → Trained model  
 5. `app.py` → Deployment script  
-6. `requirements.txt` → Dependencies  
+6. `requirements.txt` → Dependencies
+7. `Airline Analytics pbix` → Power BI Dashboards 
+8. `Power BI Images` → Dashboards/Reporting
 
 ---
 
 ## 🌍 Significance & Business Impact
-- Helps **airlines** set competitive yet profitable pricing strategies.  
-- Provides **travel agencies** with predictive insights to enhance customer satisfaction.  
-- Assists **customers** in planning trips with better awareness of price trends.  
-- Can be extended to dynamic pricing systems for real-world airline businesses.  
+- Enables airlines to set competitive and profitable pricing using ML predictions and Power BI insights.
+- Helps travel agencies and customers understand price trends through interactive dashboards.
+- Supports future dynamic pricing systems with ML models backed by BI-driven monitoring.
 
 ---
 
